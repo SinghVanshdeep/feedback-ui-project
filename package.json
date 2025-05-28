@@ -1,9 +1,12 @@
 {
   "name": "feedback-ui-project",
-  "private": true,
+  "homepage": "https://singhvanshdeep.github.io/feedback-ui-project",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
